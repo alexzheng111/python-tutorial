@@ -1,7 +1,10 @@
+from dotenv import dotenv_values
 from fastapi import FastAPI
 from fastapi_tutorial.models.user import User
 
 app = FastAPI()
+
+config = {**dotenv_values()}
 
 
 @app.get("/hello")

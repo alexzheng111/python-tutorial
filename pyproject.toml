@@ -12,6 +12,7 @@ fastapi = {extras = ["standard"], version = "^0.115.6"}
 pre-commit = "^4.0.1"
 flake8 = "^7.1.1"
 black = "^24.10.0"
+python-dotenv = "^1.0.1"
 
 [build-system]
 requires = ["poetry-core"]
