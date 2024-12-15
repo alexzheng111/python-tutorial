@@ -10,6 +10,7 @@ python = "^3.11"
 ruff = "^0.8.3"
 pytest = "^8.3.4"
 fastapi = {extras = ["standard"], version = "^0.115.6"}
+pre-commit = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core"]
