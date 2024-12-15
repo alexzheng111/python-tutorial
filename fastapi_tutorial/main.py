@@ -3,9 +3,11 @@ from fastapi_tutorial.models.user import User
 
 app = FastAPI()
 
+
 @app.get("/hello")
 def read_hello():
     return {"message": "Hello World!"}
+
 
 @app.get("/users/{user_id}")
 def get_user() -> User:
@@ -13,5 +15,5 @@ def get_user() -> User:
         "id": "asdf",
         "email": "alexzhengalt@gmail.com",
         "hashed_password": "asdfasdfa",
-        "asdfa": 1 # Gets stripped out
+        "asdfa": 1,  # Gets stripped out
     }

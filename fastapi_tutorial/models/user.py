@@ -4,4 +4,4 @@ from pydantic import BaseModel, EmailStr
 class User(BaseModel):
     id: str
     email: EmailStr
-    hashed_password: str
+    hashed_password: str  # adfasdf
