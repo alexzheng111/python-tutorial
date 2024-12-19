@@ -2,8 +2,10 @@ from dotenv import dotenv_values
 from fastapi import FastAPI
 import uvicorn
 from fastapi_tutorial.models.user import User
+from fastapi_tutorial.qb_rating.router import router as qb_rating_router
 
 app = FastAPI()
+app.include_router(qb_rating_router)
 
 config = {**dotenv_values()}
 
