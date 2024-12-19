@@ -1,0 +1,11 @@
+GET http://127.0.0.1:8000/quarterback_rating/
+Content-Type: application/json
+
+{
+    "name": "Tom Brady",
+    "completions": 123,
+    "attempts": 156,
+    "yards": 2344,
+    "touchdowns": 13,
+    "interceptions": 4
+}
