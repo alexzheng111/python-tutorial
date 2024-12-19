@@ -2,6 +2,12 @@
 
 This repository holds all python learnings.
 
+## Debugging
+
+In VSCode, follow these instructions: [link](https://fastapi.tiangolo.com/tutorial/debugging/#run-your-code-with-your-debugger)
+
+Though I was able to just use the `Python Debugger: FastAPI` option.
+
 ## Testing
 
 `poetry run pytest`
